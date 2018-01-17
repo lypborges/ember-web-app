@@ -10,7 +10,7 @@ module.exports = {
     };
   },
 
-  afterInstall: function() {
-    return this.removePackageFromProject('ember-web-app-rename');
-  }
+  // afterInstall: function() {
+  //   return this.removePackageFromProject('ember-web-app-rename');
+  // }
 };
